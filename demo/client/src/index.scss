@@ -44,14 +44,26 @@ header {
 }
 
 .header-links {
-  margin: auto;
+  margin: 2% auto;
   left: 50%;
   right: 50%;
   max-width: 800px;
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   list-style-type: none;
-  margin-bottom: 2%;
+}
+// .header-links {
+//   margin: auto;
+//   left: 50%;
+//   right: 50%;
+//   max-width: 800px;
+//   display: flex;
+//   justify-content: space-around;
+//   list-style-type: none;
+//   margin-bottom: 2%;
+// }
+
+.header-links li {
+  margin-bottom: 20px;
 }
 
 .header-links li a {
@@ -417,6 +429,21 @@ textarea {
 
   #info-header {
     max-width: 200px;
+  }
+
+  .header-links {
+    margin: auto;
+    left: 50%;
+    right: 50%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 2%;
+  }
+
+  .header-links li {
+    margin-bottom: 0;
   }
 
   .dots-container {
